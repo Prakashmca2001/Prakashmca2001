@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Pra
+
 con=sqlite3.connect('user.db')
 #con.execute("create table users(NAME,ACTOR,ACTRESS,DIRECTOR,YEAR);")
 def insertData(name,actor,actress,director,year):
